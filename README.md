@@ -82,7 +82,7 @@ where `s` is the sample [standard deviation][standard-deviation].
 ## Usage
 
 ```javascript
-import dsemtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemtk@esm/index.mjs';
+import dsemtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemtk@v0.1.0-esm/index.mjs';
 ```
 
 #### dsemtk( N, correction, x, strideX )
@@ -187,7 +187,7 @@ var v = dsemtk.ndarray( 4, 1, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dsemtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemtk@esm/index.mjs';
+import dsemtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsemtk@v0.1.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
